@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Page</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Jamaica L. Macasinag</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <section>
+        <article>
+            <h2>About Me</h2>
+            <p>I love learning new things and I’m a very curious person. I love to explore.</p>
+            <img src="IMG_20260307_204207_298" alt="Photo of Jamaica L. Macasinag" width="200">
+            
+            <h3>Hobbies & Interests</h3>
+            <ul>
+                <li>Listening to music</li>
+                <li>Watching movies and anime</li>
+                <li>Reading manga</li>
+                <li>Playing word search</li>
+            </ul>
+        </article>
+    </section>
+
+    <!-- Registration Form Section -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+
+            <label for="birthdate">Date of Birth:</label>
+            <input type="date" id="birthdate" name="birthdate">
+            <br><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="1" max="120">
+            <br><br>
+
+            <input type="submit" value="Register">
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 Jamaica L. Macasinag. All rights reserved.</p>
+    </footer>
+</body>
+</html>
